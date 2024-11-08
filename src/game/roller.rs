@@ -37,7 +37,7 @@ impl<const D: usize, const S: u8> Roller<D, S> {
 #[cfg(test)]
 mod tests {
     use rand::thread_rng;
-    use crate::dice::roller::Roller;
+    use crate::game::roller::Roller;
 
     #[test]
     fn initialize() {
